@@ -5,9 +5,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import scipy.stats as stats
 import streamlit as st
-##setup the title and description of te app
+##setup the title and description of the app
 st.title("Sales data analysis")
-st.write("this aplication analyses sales data for various product categories")
+st.write("this application analyses sales data for various product categories")
 
 ##2.create Dataset
 np.random.seed(42)  ## set random seed for reproducibility  i.e random values will not change even if you try multiple times
